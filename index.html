@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cholo Hot Sauce Recipe Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="Assets/images/Logo_Cholo-01.png" alt="Cholo Hot Sauce Logo" class="logo">
+  <div class="container">
+    <h1>Cholo Hot Sauce Recipe Calculator</h1>
+    <p>Enter the current weight of Fresno peppers (in grams), and we’ll calculate the adjusted recipe for you!</p>
+    <label for="pepperWeight">Fresno Pepper Weight (grams):</label>
+    <input type="number" id="pepperWeight" placeholder="Enter weight here" min="1">
+    <button onclick="calculateRecipe()">Calculate</button>
+    <img src="Assets/images/Logo_Cholo-09.png" alt="Skeleton Eating Peppers" class="skeleton">
+
+    <h2>Adjusted Recipe:</h2>
+    <div id="recipeOutput">
+      <p>Enter a weight to see the recipe.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+/* ========== Cholo Hot Sauce Styles ========== */
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fdf3e7;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fa160c;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p, label, button {
+    font-family: 'Lato', sans-serif;
+    color: #000;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  button {
+    background-color: #fa160c;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e88c08;
+    transform: scale(1.05);
+  }
+  
+  .logo {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .skeleton {
+    max-width: 350px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ========== Responsive Styling ========== */
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .logo, .skeleton {
+      max-width: 100%;
+    }
+  
+    button {
+      font-size: 18px;
+    }
+  }
